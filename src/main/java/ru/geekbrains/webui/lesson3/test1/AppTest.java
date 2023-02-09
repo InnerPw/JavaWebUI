@@ -64,7 +64,7 @@ public class AppTest {
         webElement14.click();
         WebElement webElement15 = driver.findElement(By.cssSelector(".rootMaxWidth-0-2-99 > .rootIn-0-2-98"));
         webElement15.click();
-
+        //
         //Тест 4
         WebElement webElement16 = driver.findElement(By.cssSelector(".s-header-item--user"));
         webElement16.click();
