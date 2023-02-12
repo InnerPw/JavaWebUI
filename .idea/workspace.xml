@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson4/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson4/TriangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson3" />
+        <entry key="$PROJECT_DIR$" value="lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/qeros/Java Projects/web_test-master",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
@@ -224,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676228121383</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lesson4">
+      <created>1676228713729</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676228713729</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson4">
+      <created>1676228799389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676228799389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +253,7 @@
     <MESSAGE value="lesson2" />
     <MESSAGE value="lesson3" />
     <MESSAGE value="lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
+    <MESSAGE value="lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
 </project>
