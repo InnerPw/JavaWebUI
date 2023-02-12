@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson4/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson4/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson4/TriangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson4/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson4/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TriangleTest.testWithCsvSourceN">
+  <component name="RunManager" selected="JUnit.TriangleTest.test">
     <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.webui.lesson3.test1.AppTest" />
       <module name="JavaWebUI" />
@@ -99,6 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TriangleTest.testWithCsvSourceN (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.webui.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.webui.lesson4" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.webui.lesson4.TriangleTest" />
+      <option name="METHOD_NAME" value="testWithCsvSourceN(int,int,int,long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TriangleTest.testWithCsvSourceN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWebUI" />
       <extension name="coverage">
@@ -117,9 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN" />
-        <item itemvalue="JUnit.TriangleTest.testWithCsvSource" />
         <item itemvalue="JUnit.TriangleTest.test" />
+        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN" />
+        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN (1)" />
+        <item itemvalue="JUnit.TriangleTest.testWithCsvSource" />
         <item itemvalue="Application.AppTest" />
       </list>
     </recent_temporary>
@@ -203,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675980166600</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lesson4">
+      <created>1676228121383</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676228121383</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +242,7 @@
     <MESSAGE value="main" />
     <MESSAGE value="lesson2" />
     <MESSAGE value="lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson3" />
+    <MESSAGE value="lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
   </component>
 </project>
