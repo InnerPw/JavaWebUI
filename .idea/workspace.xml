@@ -50,7 +50,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TriangleTest.test">
+  <component name="RunManager" selected="JUnit.TriangleTest.testWithCsvSourceN">
     <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.webui.lesson3.test1.AppTest" />
       <module name="JavaWebUI" />
@@ -130,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleTest.test" />
         <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN" />
-        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN (1)" />
         <item itemvalue="JUnit.TriangleTest.testWithCsvSource" />
+        <item itemvalue="JUnit.TriangleTest.test" />
+        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN (1)" />
         <item itemvalue="Application.AppTest" />
       </list>
     </recent_temporary>
