@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
@@ -48,6 +49,8 @@ public class AppTest {
         webElement4.click();
         Thread.sleep(2000);
         Assertions.assertEquals("https://uniocornberry.livejournal.com/",driver.getCurrentUrl(),"Логин не произведен");
+        driver.navigate().back();
+        Thread.sleep(2000);
 
     }
 
@@ -55,29 +58,30 @@ public class AppTest {
     void test2() throws InterruptedException {
 
         WebElement webElement5 = driver.findElement(By.linkText("UNIOCORNBERRY"));
-        webElement5.click();
+        Actions actionProviderMove = new Actions(driver);
+        // Performs mouse move action onto the element
+        actionProviderMove.moveToElement(webElement5).build().perform();
         WebElement webElement6 = driver.findElement(By.cssSelector(".s-header-sub-list-item__link--settings"));
         webElement6.click();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         WebElement webElement7 = driver.findElement(By.xpath(".//a[contains(text(),'Редактировать профиль')]"));
         webElement7.click();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         WebElement webElement8 = driver.findElement(By.xpath(".//form[@action='https://www.livejournal.com/manage/profile/?authas=']"));
         webElement8.click();
-        Thread.sleep(5000);
         WebElement webElement9 = driver.findElement(By.xpath(".//textarea[@name='journal_title']"));
         webElement9.click();
         webElement9.sendKeys("Почти самый лучший журнал");
         WebElement webElement10 = driver.findElement(By.cssSelector(".b-standout > .b-flatbutton"));
         webElement10.click();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
 
     }
 
     @Test
     void test3() throws InterruptedException {
 
-        WebElement webElement11 = driver.findElement(By.cssSelector(".s-header-item-post--short"));
+        WebElement webElement11 = driver.findElement(By.cssSelector(".s-header-item-post--long"));
         webElement11.click();
         WebElement webElement12 = driver.findElement(By.cssSelector(".text-0-2-179"));
         webElement12.click();
@@ -94,7 +98,9 @@ public class AppTest {
     void test4() throws InterruptedException {
 
         WebElement webElement16 = driver.findElement(By.cssSelector(".s-header-item--user"));
-        webElement16.click();
+        Actions actionProviderMove = new Actions(driver);
+        // Performs mouse move action onto the element
+        actionProviderMove.moveToElement(webElement16).build().perform();
         WebElement webElement17 = driver.findElement(By.cssSelector(".s-header-sub-list-item__link--logout"));
         webElement17.click();
 
@@ -102,8 +108,8 @@ public class AppTest {
 
 
 
-    @AfterAll
+/*    @AfterAll
     static void close(){
         driver.quit();
-    }
+    }*/
 }
