@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson5">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson5/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson3/test1/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson3/test1/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson5/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson5/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676233052522</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="lesson5">
+      <created>1676322983617</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676322983617</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

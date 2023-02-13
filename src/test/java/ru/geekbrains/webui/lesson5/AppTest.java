@@ -54,7 +54,7 @@ public class AppTest {
     @Test
     void test2() throws InterruptedException {
 
-        WebElement webElement5 = driver.findElement(By.cssSelector(".s-header-item--user"));
+        WebElement webElement5 = driver.findElement(By.linkText("UNIOCORNBERRY"));
         webElement5.click();
         WebElement webElement6 = driver.findElement(By.cssSelector(".s-header-sub-list-item__link--settings"));
         webElement6.click();
