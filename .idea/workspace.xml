@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson4">
+    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson4/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson4/TriangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson5/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson5/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson3" />
+        <entry key="$PROJECT_DIR$" value="lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,27 +38,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/qeros/Java Projects/web_test-master",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/qeros/Java Projects/web_test-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TriangleTest.testWithCsvSourceN">
-    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.webui.lesson3.test1.AppTest" />
+}</component>
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWebUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.webui.lesson3.test1.*" />
+          <option name="PATTERN" value="ru.geekbrains.webui.lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.webui.lesson5" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.webui.lesson5.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.TriangleTest.test" />
         <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN" />
         <item itemvalue="JUnit.TriangleTest.testWithCsvSource" />
-        <item itemvalue="JUnit.TriangleTest.test" />
         <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN (1)" />
-        <item itemvalue="Application.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,49 @@
       <option name="project" value="LOCAL" />
       <updated>1676228121383</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lesson4">
+      <created>1676228713729</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676228713729</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson4">
+      <created>1676228799389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676228799389</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lesson5">
+      <created>1676229323561</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676229323561</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lesson5">
+      <created>1676233052522</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676233052522</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lesson5">
+      <created>1676322983617</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676322983617</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lesson5">
+      <created>1676323431673</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676323431673</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +286,7 @@
     <MESSAGE value="lesson2" />
     <MESSAGE value="lesson3" />
     <MESSAGE value="lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
+    <MESSAGE value="lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
 </project>
