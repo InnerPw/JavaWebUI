@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson6" />
+    <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson6/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson6/AccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson6/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson6/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson6/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson6/LoginInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson6/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,18 +55,19 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AppTest">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginInTest.loginIn">
+    <configuration name="LoginInTest.loginIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWebUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.webui.lesson5.*" />
+          <option name="PATTERN" value="ru.geekbrains.webui.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.geekbrains.webui.lesson5" />
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.webui.lesson5.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ru.geekbrains.webui.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.webui.lesson6.LoginInTest" />
+      <option name="METHOD_NAME" value="loginIn" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.TriangleTest.test" />
+        <item itemvalue="JUnit.LoginInTest.loginIn" />
+        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN (1)" />
         <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN" />
         <item itemvalue="JUnit.TriangleTest.testWithCsvSource" />
-        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceN (1)" />
+        <item itemvalue="JUnit.TriangleTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -271,14 +281,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676325266108</updated>
     </task>
-    <task id="LOCAL-00019" summary="lesson6">
-      <created>1676998604369</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1676998604369</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +301,6 @@
     <MESSAGE value="lesson3" />
     <MESSAGE value="lesson4" />
     <MESSAGE value="lesson5" />
-    <MESSAGE value="lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
 </project>
