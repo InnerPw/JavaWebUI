@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad78db81-a1b0-490c-bebe-e162fb5b582e" name="Changes" comment="lesson7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson7/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson7/MyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson7/MyWebDriverEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/webui/lesson7/MyWebDriverEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson7/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson7/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson7/EventListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson7/EventListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson7/MyShowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/webui/lesson7/MyShowTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MyShowTest.testLogs">
+  <component name="RunManager" selected="JUnit.MyShowTest.testFalse">
     <configuration name="EventListenerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWebUI" />
       <extension name="coverage">
@@ -139,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyShowTest.testLogs" />
         <item itemvalue="JUnit.MyShowTest.testFalse" />
+        <item itemvalue="JUnit.MyShowTest.testLogs" />
         <item itemvalue="JUnit.MyShowTest.testTrue" />
         <item itemvalue="JUnit.MyShowTest" />
         <item itemvalue="JUnit.EventListenerTest.test" />
@@ -310,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677443601967</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="lesson7">
+      <created>1677532628092</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677532628092</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
