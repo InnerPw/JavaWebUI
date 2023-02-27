@@ -51,10 +51,22 @@
       <version>${junit.version}</version>
       <scope>compile</scope>
     </dependency>
-    <dependency>
+<!--    <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
       <version>2.19.0</version>
+    </dependency>-->
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.2.6</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -112,7 +124,6 @@
         <artifactId>allure-maven</artifactId>
         <version> ${allure-maven.version} </version>
         <configuration>
-
           <buildDirectory>C:\Users\qeros\Java Projects\JavaWebUI</buildDirectory>
         </configuration>
       </plugin>
